@@ -1,0 +1,15 @@
+[package]
+name = "autoinstall_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mdns-sd = { version = "0.5.9" }
+rouille="3.6.1"
+if-addrs = {version = "0.7"}
+gethostname = "0.4.0"
+ctrlc = "3.1"
+clap = { version = "4.0.29", features = ["cargo"] }
+
